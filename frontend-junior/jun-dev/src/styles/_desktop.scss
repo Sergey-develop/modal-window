@@ -1,0 +1,167 @@
+* {
+  font-family: Montserrat;
+}
+
+.main {
+  background-color: #0196AA;
+  padding: 20px;
+  height: auto;
+  max-width: 392px;
+  margin: 0;
+
+  h1 {
+
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+
+.feedback {
+  max-width: 558px;
+  height: auto;
+  background-color: #1F1F1F;
+  padding: 27px 60px 27px 61px;
+
+  .contacts {
+    label {
+      color: #00C5E0;
+      font-size: 12px;
+      align-items: baseline;
+    }
+  }
+
+    p {
+    color: #F3C180;
+    font-size: 12px;
+    padding-left: 5px;
+   }
+}
+
+.agreement {
+  padding-top: 20px;
+}
+
+.contacts {
+  label {
+    align-items: baseline;
+  }
+}
+
+.form-control {
+  padding: 0;
+
+}
+
+.form-control:focus {
+   padding: 0;
+    color: #F3C180;
+    background: #1F1F1F !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+  }
+
+input[type="text"], textarea {
+  outline: none;
+  box-shadow:none !important;
+  border-bottom:2px solid #F3C180 !important;
+  background: #1F1F1F;
+  color: #F3C180;
+  font-weight: 500;
+}
+
+.input {
+  border: none;
+  border-bottom: 2px solid #F3C180;
+  color: inherit;
+  outline: none;
+  border-radius: 0;
+}
+
+input.input::placeholder {
+  color: #F3C180;
+  opacity: 45%;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+.checkboxes .check{
+  background: #1F1F1F;
+  display:inline-block;
+  width:20px;
+  height:20px;
+  border: 1px #00C5E0 solid;
+  border-radius: 3px;
+}
+
+.checkboxes input[type=checkbox]{
+  display:none
+}
+
+.checkboxes input[type=checkbox]:checked + .check{
+  position:relative;
+  background: #1F1F1F;
+}
+
+.checkboxes input[type=checkbox]:checked + .check:after{
+  position:absolute;
+  content:"\2714";
+  color: #00C5E0;
+  text-align:center;
+  width:100%
+}
+
+@media screen and (max-width: 768px) {
+  .block {
+    display: block !important;
+    width: 265px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main {
+    width: 265px;
+    height: 188px;
+
+    p {
+      width: 235px;
+      height: 96px;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+  }
+
+  .feedback {
+    padding: 20px;
+
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+.button {
+  background-color: #0196AA;
+  color: #ffffff;
+  width: 158px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
